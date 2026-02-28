@@ -2,3 +2,15 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+
+.search-input {
+  width: 300px;
+  padding: 0.5rem 1rem;
+}
+
+.search-suggestions {
+  width: 300px;
+  max-height: 90px;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
