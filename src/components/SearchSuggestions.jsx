@@ -11,7 +11,7 @@ const SearchSuggestions = ({ search, setDisplayValue }) => {
     }
   });
 
-  if (filteredCountries.length === 0) return;
+  if (filteredCountries.length === 0) return null;
 
   return (
     <div className="search-suggestions">
