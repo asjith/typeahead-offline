@@ -13,4 +13,28 @@
   max-height: 90px;
   border: 1px solid black;
   padding: 0.5rem 1rem;
+  overflow-y: auto;
+}
+
+.search-suggestions > * {
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
+
+.search-suggestion-item:hover {
+  background-color: lightblue;
+}
+
+.input-container {
+  position: relative;
+}
+
+.reset-btn {
+  position: absolute;
+  right: 35px;
+  top: 0;
+  bottom: 0;
+  padding: 0.25rem;
+  border: none;
+  background-color: transparent;
 }
